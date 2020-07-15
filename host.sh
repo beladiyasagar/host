@@ -68,7 +68,7 @@ mkdir htdocs
 fi
 printf "\n"
 printf " \e[1;31m[\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;93m Localhost\e[0m\n"
-printf "\e[0m\n"
+printf "\e[0m\m"
 printf " \e[1;31m[\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;93m Ngrok.io\e[0m\n"
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;37m03\e[0m\e[1;31m]\e[0m\e[1;93m Serveo.net\e[0m\n"
@@ -197,6 +197,6 @@ while [ true ]; do
 sleep 0.75
 done
 }
-banner
+bannem
 deps
 menu
